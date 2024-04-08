@@ -1,0 +1,39 @@
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .title{
+                font-size:larger; 
+                font-weight: bolder; 
+                text-align: center;
+            }
+            .planet{
+                position: relative; 
+                left: 10%;
+            }
+            body {
+                color: rgb(35, 15, 100);
+                box-sizing: content-box;
+                align-content: unset;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+            }
+            div {
+                background-color: rgb(255, 255, 255);
+                border: 3px transparent;
+                padding: 7%;
+                padding-top: 4%;
+                padding-bottom: 4%;
+                position: absolute; 
+                top: 12px;
+                margin-left: 20%;
+                margin-right: 20%;
+                text-align: left;
+            }
+            .img-link:hover {
+                -webkit-transform: scale(1.04);
+                -moz-transform: scale(1.04);
+                -o-transform: scale(1.04);
+                -ms-transform: scale(1.04);
+                transform: scale(1.04);
+            }
